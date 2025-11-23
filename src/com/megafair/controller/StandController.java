@@ -4,8 +4,8 @@
  */
 package com.megafair.controller;
 
-import com.megafair.model.Stand;
-import com.repository.com.StandRepository;
+import com.megafair.model.entities.Stand;
+import com.megafair.model.repositories.StandRepository;
 import com.megafair.util.Response;
 import com.megafair.util.Validator;
 

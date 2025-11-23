@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.megafair.model;
+package com.megafair.model.entities;
 
-public class Editorial implements Cloneable {
+public class Editorial {
 
     private String nit;
     private String nombre;
@@ -19,10 +19,6 @@ public class Editorial implements Cloneable {
     public String getNit() { return nit; }
     public String getNombre() { return nombre; }
     public Gerente getGerente() { return gerente; }
-
-    @Override
-    public Editorial clone() {
-        return new Editorial(nit, nombre, gerente.clone());
-    }
 }
+
 

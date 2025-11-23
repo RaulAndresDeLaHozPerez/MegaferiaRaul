@@ -4,10 +4,15 @@
  */
 package com.megafair.model.dto;
 
-/**
- *
- * @author Raul De La Hoz
- */
 public class PersonaDTO {
-    
+    public long id;
+    public String nombre;
+    public String nacionalidad;
+
+    public PersonaDTO(long id, String nombre, String nacionalidad) {
+        this.id = id;
+        this.nombre = nombre;
+        this.nacionalidad = nacionalidad;
+    }
 }
+

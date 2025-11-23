@@ -4,8 +4,8 @@
  */
 package com.megafair.controller;
 
-import com.repository.com.EditorialRepository;
-import com.repository.com.StandRepository;
+import com.megafair.model.repositories.EditorialRepository;
+import com.megafair.model.repositories.StandRepository;
 import com.megafair.util.*;
 import java.util.*;
 

@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.megafair.service;
+package com.megafair.model.dto;
 
-/**
- *
- * @author Raul De La Hoz
- */
-public class LibroService {
-    
+public class NarradorDTO extends PersonaDTO {
+
+    public NarradorDTO(long id, String nombre, String nacionalidad) {
+        super(id, nombre, nacionalidad);
+    }
 }
+

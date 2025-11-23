@@ -4,9 +4,11 @@
  */
 package com.megafair.controller;
 
-import com.megafair.model.*;
-import com.megafair.model.LibroRepository;
-import com.repository.com.PersonaRepository;
+import com.megafair.model.entities.Persona;
+import com.megafair.model.entities.Libro;
+import com.megafair.model.entities.Autor;
+import com.megafair.model.repositories.LibroRepository;
+import com.megafair.model.repository.PersonaRepository;
 import com.megafair.util.*;
 import java.util.*;
 

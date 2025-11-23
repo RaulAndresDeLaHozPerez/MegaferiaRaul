@@ -4,10 +4,22 @@
  */
 package com.megafair.model.dto;
 
-/**
- *
- * @author Raul De La Hoz
- */
+import java.util.List;
+
 public class LibroDTO {
-    
+    public String isbn;
+    public String titulo;
+    public double precio;
+    public String nitEditorial;
+    public List<Long> autoresIds;   // IDs de autores
+
+    public LibroDTO(String isbn, String titulo, double precio, 
+                    String nitEditorial, List<Long> autoresIds) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.precio = precio;
+        this.nitEditorial = nitEditorial;
+        this.autoresIds = autoresIds;
+    }
 }
+

@@ -4,14 +4,10 @@
  */
 package com.megafair.model.dto;
 
-public class StandDTO {
-    public long id;
-    public double precio;
+public class AutorDTO extends PersonaDTO {
 
-    public StandDTO(long id, double precio) {
-        this.id = id;
-        this.precio = precio;
+    public AutorDTO(long id, String nombre, String nacionalidad) {
+        super(id, nombre, nacionalidad);
     }
 }
-
 
